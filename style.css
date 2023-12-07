@@ -4,14 +4,14 @@
     --navy: #4B5975;
     --green: #14B8A6;
     --white: #fff;
-
   }
    
 body{
     margin: 0;
     padding: 0;
     background-color: var(--bg-navy);
-    font-family:Arial, Helvetica, sans-serif;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: 'Poppins';
 }
 
 @keyframes toleft{
@@ -111,8 +111,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 220px;
-    justify-content:center;
+    /* gap: 180px; */
+    justify-content:space-around;
     flex-direction: row;
     color: var(--white);
     font-weight: bold;
@@ -123,9 +123,9 @@ body{
     /* animation: funRotating 2s ease-in-out; */
     /* animation: toright 1s both ; */
     padding-bottom: 20px    ;
-    
-    width: 300px; 
-    height: 300px; 
+    padding-left: 100px;
+    width: 320px; 
+    height: 320px; 
     object-fit: cover;
 }
 
@@ -140,16 +140,16 @@ body{
     padding: 10px;
     width: 150px;
     border-radius: 20px;
-    background-color: var(--green);
+    
     color: var(--white);
-    font-weight: bold;
+    background-color: var(--bg-navy);
     font-size: 15px;
     border: 2px solid #14B8A6;
 }
 
 .home button:hover{
-    background-color: var(--bg-navy);
-    transition: .2s ease-in-out ;
+    background-color: var(--green);
+    transition: .5s
 }
 
 .home section{
@@ -238,8 +238,8 @@ body{
 }
 
 .project h2{
-    margin: 10;
-    padding: 0;
+    /* margin: 10;
+    padding: 0; */
     color: var(--green);
 }
 
