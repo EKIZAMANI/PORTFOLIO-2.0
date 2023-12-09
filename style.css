@@ -100,6 +100,11 @@ body{
     border: none;
 }
 
+.nav button a{
+    text-decoration: none;
+    color: var(--white);
+}
+
 .nav button:hover{
     transition: 0.6s;
     background-color: var(--white);
@@ -254,7 +259,26 @@ body{
     margin-top: 50px;
     border-radius: 20px;
     max-width: 380px;
+    box-shadow: 7px 10px 56px -9px rgba(0,0,0,0.75);
+-webkit-box-shadow: 7px 10px 56px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 10px 56px -9px rgba(0,0,0,0.75);
     
+}
+
+.project-card a{
+    text-decoration: none;
+    color: white;
+}
+
+.project-button{
+    background-color: var(--green);
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .project-containercard{
